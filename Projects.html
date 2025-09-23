@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Certificates - Mohamed Karem Ali</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <style>
+        body {
+            background-color: #0f172a;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin: 40px auto;
+            color: #E0E7FF;
+            text-decoration: none;
+            font-size: 1.3rem;
+            font-weight: 500;
+            border: 2px solid #4faec9;
+            padding: 15px 30px;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            background-color: #4faec9;
+            color: #fff;
+        }
+
+        .container-full {
+            width: 100%;
+            max-width: 12000px;
+            margin: 0 auto;
+            padding: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="three-canvas"></canvas>
+    <div class="container-full">
+        <section id="projects">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="font-heading">Latest Projects</h2>
+                    <p>A collection of my most recent and important projects</p>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image" style="background-image: url(Images/Design\ network.png); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                        </div>
+                        <div class="project-info">
+                            <h3>Secure Corporate Network Design</h3>
+                            <p>
+                                Designed a simulated enterprise network using Cisco Packet Tracer, featuring departmental VLANs for traffic segmentation, layered architecture with access, distribution, and core layers, OSPF routing and static routes for efficient connectivity, and centralized servers in a secure data center.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Cisco Packet Tracer</span>
+                                <span class="tech-tag">VLAN</span>
+                                <span class="tech-tag">OSPF</span>
+                                <span class="tech-tag">Network Design</span>
+                            </div>
+                            <a href="https://github.com/mohammedkarem" target="_blank" class="btn btn-secondary" style="padding: 0.9rem 6rem; font-size: 1rem; color: #4faec9;">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image" style="background-image: url(Images/Phishing\ project.png); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                        </div>
+                        <div class="project-info">
+                            <h3>Phishing URL Detector with Python & Tkinter</h3>
+                            <p>
+                                Developed a lightweight GUI application using Python and Tkinter that analyzes URLs in real-time to detect phishing threats. The tool checks for suspicious keywords, risky top-level domains, shortened or masked links, and misleading domain names.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Tkinter</span>
+                                <span class="tech-tag">tldextract</span>
+                                <span class="tech-tag">Phishing Detection</span>
+                            </div>
+                            <a href="https://github.com/mohammedkarem/Phishing-Detector" target="_blank" class="btn btn-secondary" style="padding: 0.9rem 6rem; font-size: 1rem; color: #4faec9;">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image" style="background-image: url(Images/مشروع\ scriptat.png); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                        </div>
+                        <div class="project-info">
+                            <h3>Security Automation Scripts</h3>
+                            <p>
+                                Created custom Python scripts to automate security tasks such as log analysis, vulnerability scanning reports, firewall rule management, and security alerts. These scripts help streamline security operations and reduce manual workload.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Automation</span>
+                                <span class="tech-tag">Log Analysis</span>
+                                <span class="tech-tag">Security Tools</span>
+                            </div>
+                            <a href="https://github.com/mohammedkarem" target="_blank" class="btn btn-secondary" style="padding: 0.9rem 6rem; font-size: 1rem; color: #4faec9;">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a href="index.html" class="back-link">
+            <i class="fas fa-arrow-left"></i> Back to Main Portfolio
+        </a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="JS/scripts.js"></script>
+</body>
+
+</html>
